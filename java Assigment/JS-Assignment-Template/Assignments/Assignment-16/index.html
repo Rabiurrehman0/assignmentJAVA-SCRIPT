@@ -1,0 +1,69 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" onclick="alert('hello')">CLICK ME</a>
+    <br>
+    <img src="https://static.toiimg.com/thumb/msid-70072353,width-640,resizemode-4/70072353.jpg" alt="" onclick="alert('details of the phone')" width="200px" height="200px">
+    <table  border='1'>
+        <tr>
+            <td>abdulbasit</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+            
+        </tr>    
+       <tr>
+        <td>ahmed</td>
+        <td><Button onclick="deleteRow(this)">Delete</Button></td>
+       </tr>
+        <tr>
+            <td>akram</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>salman</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        
+        <tr>
+            <td>zia</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+            
+        <tr>
+            <td>farhan</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>agha</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>sayed</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>jibran</td>
+            <td><Button onclick="deleteRow(this)">Delete</Button></td>
+        </tr>
+    </table>
+
+    <img id='img' src="https://static.toiimg.com/thumb/msid-70072353,width-640,resizemode-4/70072353.jpg" alt="" onmouseover="imageChange()" onmouseout="restoreImage()">
+
+    <div style="text-align: center;">
+        <p style="font-weight: bolder; font-size: 32px;" id='counter'>
+            0
+        </p>
+        <button onclick="increment()">inc</button>
+        <button onclick="decrement()">dec</button>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
